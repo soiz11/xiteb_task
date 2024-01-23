@@ -42,13 +42,13 @@ const Slider = () => {
   //related data array
   const images = [
     {
-      heading: "Shangri-La Colombo",
-      des: "Come with us through the whimsical world of Shangri-La, where your personal paradise awaits.",
+      heading: "Monaro Colombo",
+      des: "Come with us through the whimsical world of Monaro, where your personal paradise awaits.",
       view: image1,
-      link: "Find Your Shangri-La",
+      link: "Find Your Monaro",
     },
     {
-      heading: "Shangri-La Colombo",
+      heading: "Monaro Colombo",
       des: "A personal tropical sanctuary set within the heart of the city",
       view: image2,
       link: "",
@@ -140,6 +140,10 @@ const Slider = () => {
         <div className="bg-white flex-1 h-[70%] flex mx-1 items-center px-2">
           <CiShoppingTag className="text-[24px] mr-2" />
           <div className="text-gray-400">Special Code </div>
+        </div>
+
+        <div className="bg-yellow-600 mx-2 px-5 h-[70%]  flex justify-center items-center cursor-pointer">
+          <div className="flex text-white font-medium text-[15px] ">Search</div>
         </div>
       </div>
     </div>
