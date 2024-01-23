@@ -1,10 +1,16 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Slider from "./components/Slider";
+
+import Page from "./pages/Page";
+import BlankPage from "./pages/BlankPage";
 
 function App() {
   return (
     <>
-      <Slider />
+      <Routes>
+        <Route exact path="/" element={<Page />} />
+        <Route exact path="/blankpage" element={<BlankPage />} />
+      </Routes>
     </>
   );
 }
