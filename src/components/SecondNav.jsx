@@ -143,7 +143,7 @@ const SecondNav = () => {
           {hoveredNav && hoveredNav.topic1 && (
             <div className="flex py-1 flex-col text-[16px]">
               {hoveredNav.links.map((link, linkIndex) => (
-                <div key={linkIndex} className=" hover:text-yellow-600">
+                <div key={linkIndex} className=" hover:text-[#77328b]">
                   {link}
                 </div>
               ))}

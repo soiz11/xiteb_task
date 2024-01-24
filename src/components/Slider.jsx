@@ -69,7 +69,7 @@ const Slider = () => {
 
   return (
     //animated slider area
-    <div className="group relative w-full h-[70vh] flex items-center overflow-y-hidden overflow-x-auto scrollbar-hide scroll-smooth ">
+    <div className="group relative w-full h-[70vh] flex items-center overflow-y-hidden overflow-x-auto scrollbar-hide scroll-smooth mb-[30px] ">
       {images.map((image, index) => (
         <div
           key={index}
@@ -142,7 +142,7 @@ const Slider = () => {
           <div className="text-gray-400">Special Code </div>
         </div>
 
-        <div className="bg-yellow-600 mx-2 px-5 h-[70%]  flex justify-center items-center cursor-pointer">
+        <div className="bg-[#77328b] mx-2 px-5 h-[70%]  flex justify-center items-center cursor-pointer">
           <div className="flex text-white font-medium text-[15px] ">Search</div>
         </div>
       </div>

@@ -31,10 +31,10 @@ const UpperNav = () => {
     <div className="px-[20%] bg-white h-[60px] flex justify-between items-center">
       {/*logo corner*/}
       <div className="flex items-center">
-        <RxVercelLogo className="text-yellow-600 text-[30px] font-bold mr-3" />
+        <RxVercelLogo className="text-[#77328b] text-[30px] font-bold mr-3" />
         <div className="font-semibold text-[24px]">
-          M<span className="text-yellow-600">o</span>nar
-          <span className="text-yellow-600">o</span>
+          M<span className="text-[#77328b]">o</span>nar
+          <span className="text-[#77328b]">o</span>
         </div>
       </div>
 
