@@ -93,7 +93,7 @@ const Slider = () => {
           {/*bottom link text area*/}
           {image.link && (
             <Link
-              className="absolute bottom-[15%]  right-[20%]  transform  text-white flex   items-center py-0"
+              className="absolute bottom-[15%]  my2:right-[20%] right-[10%] transform  text-white flex   items-center py-0"
               to="/blankpage"
             >
               <div className="text-right text-[20px] flex">{image.link}</div>
@@ -116,15 +116,15 @@ const Slider = () => {
       </div>
 
       {/*multiple input area*/}
-      <div className="bg-white bg-opacity-50 absolute bottom-[3%] h-[70px]  left-[20%] right-[20%] flex justify-between items-center px-2">
+      <div className="bg-white bg-opacity-50 absolute bottom-[3%] h-[70px] left-[10%] right-[10%] my2:left-[20%] my2:right-[20%] flex justify-between items-center px-2">
         {/*section 1*/}
-        <div className="bg-transparent flex-1 h-[70%] flex mx-1 relative">
+        <div className="bg-transparent my1:w-[35%] w-[40%] h-[70%] flex mx-1 relative">
           <div className="flex flex-1 items-center px-2 bg-white mr-[1px]">
-            <MdDateRange className="text-[24px] mr-2" />
-            <div>Jan 23,2024</div>
+            <MdDateRange className=" text-[20px] my3:text-[24px] mr-2" />
+            <div className="text-[14px] my3:text-[16px]">Jan 23,2024</div>
           </div>
           <div className="flex flex-1 items-center px-2 bg-white ml-[1px]">
-            <div className="pl-10">Jan 24,2024</div>
+            <div className="pl-10 text-[14px] my3:text-[16px]">Jan 24,2024</div>
           </div>
 
           <div className="bg-gray-200 rounded-2xl px-2 absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -133,15 +133,19 @@ const Slider = () => {
         </div>
 
         {/*section 2*/}
-        <div className="bg-white flex-1 h-[70%] flex mx-1 items-center px-2">
-          <CiUser className="text-[24px] mr-2" />
-          <div>1 Room, 1 Adult, 0 Children</div>
+        <div className="bg-white my1:flex-1 h-[70%] flex w-[30%] mx-1 items-center px-2">
+          <CiUser className="text-[20px] my3:text-[24px]  mr-2" />
+          <div className="text-[14px] my3:text-[16px]">
+            1 Room, 1 Adult, 0 Children
+          </div>
         </div>
 
         {/*section 3*/}
-        <div className="bg-white flex-1 h-[70%] flex mx-1 items-center px-2">
-          <CiShoppingTag className="text-[24px] mr-2" />
-          <div className="text-gray-400">Special Code </div>
+        <div className="bg-white my1:flex-1 w-[20%] h-[70%] flex mx-1 items-center px-2">
+          <CiShoppingTag className="text-[20px] my3:text-[24px]  mr-2" />
+          <div className="text-gray-400 text-[14px] my3:text-[16px]">
+            Special Code
+          </div>
         </div>
 
         <div className="bg-[#77328b] mx-2 px-5 h-[70%]  flex justify-center items-center cursor-pointer">

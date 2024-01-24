@@ -36,11 +36,11 @@ const Offers = () => {
     },
   ];
   return (
-    <div className="bg-transparent mx-[20%] my-[70px]">
+    <div className="bg-transparent mx-[10%] my2:mx-[20%] my-[70px]">
       <div className="text-center text-[50px] text-[#77328b] font-thin pb-[30px]">
         Offers
       </div>
-      <div className="h-[550px] w-[100%] bg-transparent grid grid-cols-3 gap-4 mt-2 relative">
+      <div className="h-[600px] myspe:h-[550px] w-[100%] bg-transparent grid grid-cols-3  gap-4 mt-2 relative">
         {cards.map((card, index) => (
           <div
             key={index}
@@ -50,13 +50,15 @@ const Offers = () => {
 
             {/*tag heading */}
             {card.tag && (
-              <div className=" absolute top-0 right-0 transform translate-y-1/2 z-10 bg-white bg-opacity-80  text-center font-semibold text-[14px] px-2 py-1 rounded-l-full shadow-lg">
+              <div className=" absolute top-0 right-0 transform translate-y-1/2 z-10 bg-white bg-opacity-80  text-center font-semibold my2:text-[14px] px-2 py-1 rounded-l-full shadow-lg">
                 {card.tag}
               </div>
             )}
 
             {/*h1 */}
-            <div className="font-semibold text-center p-2">{card.h1}</div>
+            <div className="font-semibold text-center p-2 text-[18px] ">
+              {card.h1}
+            </div>
 
             {/*date area*/}
             {card.date ? (
@@ -68,7 +70,7 @@ const Offers = () => {
             {/*h2 */}
             {card.h2.length < 40 ? (
               <>
-                <div className="font-semibold text-center px-4 pt-2 text-[17px]">
+                <div className="font-semibold text-center px-4 pt-2 text-[15px] myspe:text-[17px]">
                   {card.h2}
                 </div>
                 <div className="font-semibold text-center px-4  pt-0 pb-2 text-[17px] text-white">
@@ -76,19 +78,19 @@ const Offers = () => {
                 </div>
               </>
             ) : (
-              <div className="font-semibold text-center px-4 py-2 text-[17px]">
+              <div className="font-semibold text-center px-4 py-2 text-[15px] myspe:text-[17px]">
                 {card.h2}
               </div>
             )}
 
             {/*h3 */}
-            <div className="text-center py-2 px-4 text-[13px] text-gray-500">
+            <div className="text-center py-2 px-4 text-[12px] myspe:text-[13px] text-gray-500">
               {card.h3}
             </div>
 
             {/*pricing */}
             {card.price && (
-              <div className="text-center pt-16 pb-2 px-4 text-[15px]  absolute bottom-20 left-1/2 transform -translate-x-1/2 w-[80%]">
+              <div className="text-center pt-16 pb-2 px-4 text-[15px]  absolute  bottom-24 myspe:bottom-20 left-1/2 transform -translate-x-1/2 w-[80%]">
                 From
                 <span className="font-bold">{" " + card.price + " "}</span>
                 Average Per Night
@@ -96,7 +98,7 @@ const Offers = () => {
             )}
 
             {/*button*/}
-            <div className="cursor-pointer text-center py-2 px-4 text-[15px]  absolute bottom-[20px] left-1/2 transform -translate-x-1/2 w-[40%] border-2 border-[#77328b] font-bold text-[#77328b]">
+            <div className="cursor-pointer text-center py-2 px-2 text-[15px]  absolute bottom-[20px] left-1/2 transform -translate-x-1/2 w-[60%] border-2 border-[#77328b] font-bold text-[#77328b]">
               View Details
             </div>
 

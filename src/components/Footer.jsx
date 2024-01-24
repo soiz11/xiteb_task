@@ -47,13 +47,13 @@ const Footer = () => {
   return (
     <div className="bg-transparent  mt-[50px] ">
       <img src={image1} className="h-[100%] w-[100%] object-cover" />
-      <div className="bg-transparent mx-[20%] my-[10px] flex flex-col">
+      <div className="bg-transparent mx-[10%] my2:mx-[20%] my-[10px] flex flex-col">
         {/*first row */}
 
         <div className="flex my-8 ">
           {rows1.map((row1, index) => (
             <div className="flex flex-col flex-1" key={index}>
-              <div className="text-[#77328b] text-[28px] italic mb-4">
+              <div className="text-[#77328b] my2-text[24px] mymax1:text-[28px] my1:text-[22px] text-[20px] italic mb-4">
                 {row1.topic}
               </div>
               <div className="text-gray-500 pb-2">{row1.link1}</div>
@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="flex my-8">
           {rows2.map((row2, index) => (
             <div className="flex flex-col flex-1" key={index}>
-              <div className="text-[#77328b] text-[28px] italic mb-4">
+              <div className="text-[#77328b] my2-text[24px] mymax1:text-[28px] my1:text-[22px] text-[20px] italic mb-4">
                 {row2.topic}
               </div>
               <div className="text-gray-500 pb-2">{row2.link1}</div>
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="flex my-8">
           {/*left part */}
           <div className="flex flex-col w-[66.67%]">
-            <div className="text-[#77328b] text-[28px] italic mb-4">
+            <div className="text-[#77328b] my2-text[24px] mymax1:text-[28px] my1:text-[22px] text-[20px] italic mb-4">
               Careers
             </div>
             <div className="text-gray-500 pb-2">Careers</div>
@@ -89,7 +89,7 @@ const Footer = () => {
 
           {/*right part */}
           <div className="flex flex-col w-[33.33%]">
-            <div className="text-[#77328b] text-[28px] italic mb-4">
+            <div className="text-[#77328b] my2-text[24px] mymax1:text-[28px] my1:text-[22px] text-[20px] italic mb-4">
               Follow Us
             </div>
             <div className="text-gray-500 flex text-[20px]">
@@ -102,11 +102,10 @@ const Footer = () => {
           </div>
         </div>
 
-        {/*forth row */}
-        <div className="flex mt-8 mb-[-300px]">
-          {/*left part */}
+        {/*forth row input arae */}
+        <div className="flex mt-8 myspec2:mb-[-300px] my1:mb-[-200px]  mb-[-150px]">
           <div className="flex flex-col ">
-            <div className="text-[#77328b] text-[28px] italic mb-4">
+            <div className="text-[#77328b] my2:text-[28px] text-[24px] italic mb-4">
               Get Monaro in your inbox
             </div>
             <div className="text-gray-500  flex border-[1px] border-gray-500 items-center w-[500px]">

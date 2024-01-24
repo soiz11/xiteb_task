@@ -33,7 +33,7 @@ const StartArea = () => {
     },
   ];
   return (
-    <div className="bg-transparent mx-[20%] my-[70px]">
+    <div className="bg-transparent mx-[10%] my2:mx-[20%] my-[70px]">
       <div className="text-[35px] text-[#252776] font-bold">
         Start the new year with a new stay
       </div>
@@ -44,7 +44,7 @@ const StartArea = () => {
         {cards.map((card, index) => (
           <div key={index} className="relative group">
             <img src={card.img} className="w-[100%] h-[100%]" />
-            <div className=" group-hover:bottom-1/3  group-hover:py-0 transition-all duration-500 ease-in-out absolute bottom-[15px] left-1/2 transform -translate-x-1/2 z-10 text-white w-[100%] text-center font-semibold text-[26px] px-2 ">
+            <div className=" group-hover:bottom-1/3  group-hover:py-0 transition-all duration-500 ease-in-out absolute bottom-[15px] left-1/2 transform -translate-x-1/2 z-10 text-white w-[100%] text-center font-semibold text-[20px] my1:text-[22px] my3:text-[24px] px-2 ">
               {card.des}
             </div>
             <div className="absolute bottom-0 left-0 bg-gradient-to-t from-black to-transparent via-opacity-20 w-full h-4/5"></div>

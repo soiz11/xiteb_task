@@ -85,12 +85,12 @@ const SecondNav = () => {
 
   return (
     <div>
-      <div className="bg-[#333] h-[45px] text-white flex justify-between px-[20%]">
+      <div className="bg-[#333] h-[45px] text-white flex justify-between my2:px-[20%] px-[10%]">
         {/*seperate links*/}
         <div className="flex items-center">
           {navs.map((nav, index) => (
             <div
-              className={`flex items-center px-3 cursor-pointer group  h-[100%] ${
+              className={` flex items-center px-2 my2:px-3 cursor-pointer group h-[100%] ${
                 nav.topic1
                   ? "group-hover:text-[#333] hover:bg-white"
                   : "group-hover:bg-[#333] group-hover:text-white"
@@ -99,7 +99,7 @@ const SecondNav = () => {
               onMouseEnter={() => handleMouseIn(nav)}
             >
               <div
-                className={`flex pr-1 font-semibold text-[14px] ${
+                className={`flex pr-1 font-semibold my3:text-[14px] text-[12px] ${
                   nav.topic1
                     ? "group-hover:text-[#333]"
                     : "group-hover:text-white"
@@ -125,7 +125,7 @@ const SecondNav = () => {
           className="flex font-semibold items-center cursor-pointers"
           to="/balnkpage"
         >
-          <div className="flex  border-white border-[1px] px-3 py-1">
+          <div className="flex  border-white border-[1px] px-2 my2:px-3 my3:text-[14px] text-[12px] py-1">
             FIND A HOTEL
           </div>
         </Link>
@@ -134,7 +134,7 @@ const SecondNav = () => {
       {/*drop down area*/}
       {hoveredNav && hoveredNav.topic1 && (
         <div
-          className="bg-white  h-[fit-content] left-0 right-0 absolute z-10 px-[20%] pb-4"
+          className="bg-white  h-[fit-content] left-0 right-0 absolute z-10 px-[10%] my2:px-[20%] pb-4"
           onMouseLeave={handleMouseLeave}
         >
           <div className="text-[18px] font-semibold pt-6 pb-2">

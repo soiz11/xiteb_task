@@ -28,7 +28,7 @@ const UpperNav = () => {
   };
 
   return (
-    <div className="px-[20%] bg-white h-[60px] flex justify-between items-center">
+    <div className=" px-[10%] my2:px-[20%] bg-white h-[60px] flex justify-between items-center">
       {/*logo corner*/}
       <div className="flex items-center">
         <RxVercelLogo className="text-[#77328b] text-[30px] font-bold mr-3" />
