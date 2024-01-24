@@ -1,6 +1,6 @@
 # Sohan Prabhath Weerasinghe - soizsinghe@gmail.com
 
-Practical Assesment on Frontend Development
+Xiteb Practical Assesment on Frontend Development
 
 Currently, two official plugins are available:
 
