@@ -73,7 +73,7 @@ const Destinations = () => {
     <div className="flex flex-col items-center w-[100%] h-fit bg-tarnsparent mb-12">
       {/*heading*/}
       <div
-        className="flex w-fit py-3 px-5 h-fit bg-transparent text-[50px] font-light italic mb-5"
+        className="flex w-fit py-3 px-5 h-fit bg-transparent text-[50px] font-light italic mb-5 text-[#77328b]"
         onClick={outerClick}
       >
         Our Destinations
@@ -81,7 +81,7 @@ const Destinations = () => {
 
       {/*drop down*/}
       <div
-        className="text-[20px] text-[#252776] italic font-normal w-[30%] border-2 border-gray-400 flex items-center justify-between py-2 px-4 mb-5"
+        className="text-[20px] text-[#252776] italic font-normal w-[30%] border-2 border-gray-400 flex items-center justify-between py-2 px-4"
         onClick={handleTopBarClick}
       >
         <div>{name}</div>

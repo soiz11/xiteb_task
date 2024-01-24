@@ -33,7 +33,7 @@ const StartArea = () => {
     },
   ];
   return (
-    <div className="bg-transparent mx-[20%] my-[100px]">
+    <div className="bg-transparent mx-[20%] my-[70px]">
       <div className="text-[35px] text-[#252776] font-bold">
         Start the new year with a new stay
       </div>

@@ -52,19 +52,19 @@ const Slider = () => {
     {
       heading: "Monaro Colombo",
       des: "A personal tropical sanctuary set within the heart of the city",
-      view: image3,
+      view: image2,
       link: "",
     },
     {
       heading: "Rooms & Suites",
       des: "Tastefully designed with the modern traveler in mind",
-      view: image4,
+      view: image3,
       link: "Discover more",
     },
     {
       heading: "Shang Palace",
       des: "Celebrate the art of Chinese cuisine in the heart of Colombo",
-      view: image2,
+      view: image4,
       link: "Dine with us",
     },
   ];
