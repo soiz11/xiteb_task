@@ -96,7 +96,7 @@ const Offers = () => {
             )}
 
             {/*button*/}
-            <div className="text-center py-2 px-4 text-[15px]  absolute bottom-[20px] left-1/2 transform -translate-x-1/2 w-[40%] border-2 border-[#77328b] font-bold text-[#77328b]">
+            <div className="cursor-pointer text-center py-2 px-4 text-[15px]  absolute bottom-[20px] left-1/2 transform -translate-x-1/2 w-[40%] border-2 border-[#77328b] font-bold text-[#77328b]">
               View Details
             </div>
 

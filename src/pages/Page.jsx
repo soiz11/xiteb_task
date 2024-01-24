@@ -1,4 +1,5 @@
 import Destinations from "../components/Destinations";
+import Footer from "../components/Footer";
 import Offers from "../components/Offers";
 import SecondNav from "../components/SecondNav";
 import Slider from "../components/Slider";
@@ -14,6 +15,7 @@ const Page = () => {
       <Destinations />
       <StartArea />
       <Offers />
+      <Footer />
     </>
   );
 };
