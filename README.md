@@ -1,6 +1,6 @@
-# React + Vite
+# Sohan Prabhath Weerasinghe - soizsinghe@gmail.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Practical Assesment on Frontend Development
 
 Currently, two official plugins are available:
 
