@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
-import image1 from "../assets/images/girl1.jpg";
-import image2 from "../assets/images/hotel1.jpg";
+import image1 from "../assets/images/s1.webp";
+import image2 from "../assets/images/s2.webp";
+import image3 from "../assets/images/s3.webp";
+import image4 from "../assets/images/s4.webp";
 import { FaChevronLeft } from "react-icons/fa6";
 import { FaChevronRight } from "react-icons/fa6";
 import { CiUser } from "react-icons/ci";
@@ -50,13 +52,13 @@ const Slider = () => {
     {
       heading: "Monaro Colombo",
       des: "A personal tropical sanctuary set within the heart of the city",
-      view: image2,
+      view: image3,
       link: "",
     },
     {
       heading: "Rooms & Suites",
       des: "Tastefully designed with the modern traveler in mind",
-      view: image1,
+      view: image4,
       link: "Discover more",
     },
     {
